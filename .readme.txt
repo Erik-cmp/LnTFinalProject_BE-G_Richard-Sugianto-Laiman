@@ -1,0 +1,13 @@
+Configurations:
+1. composer require laravel/jetstream
+2. php artisan jetstream:install livewire
+3. npm install
+4. npm run dev
+
+Akses admin:
+-Register new user
+-Buka phpmyadmin
+-Ganti usertype jadi "1"
+
+Akses logout:
+tambah <x-app-layout></x-app-layout> di file .blade.php
